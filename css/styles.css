@@ -1,0 +1,159 @@
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 3% 5% 7%;
+}
+/* Sections */
+.colored-section {
+  background: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 48%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Feature Section */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+.feature-title {
+  font-size: 1.4rem;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#press {
+  background: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+#cta {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.bottom-text {
+  font-size: 2.5rem;
+  text-align: center;
+  width: 50%;
+  color: #fff;
+  margin: auto;
+  padding-top: 5%;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  background: #fff;
+}
+.footer-text {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  padding: 1% 0 7%;
+}
+.footer-icon {
+  color: #222831;
+  padding-top: 7%;
+  margin: 0.5%;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
